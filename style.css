@@ -1,0 +1,113 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  /* Container for the form */
+  #survey-form {
+    background-color: #fff;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title and Description */
+  #title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  #description {
+    text-align: center;
+    color: #666;
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  
+  /* Labels and Inputs */
+  label {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="number"]:focus,
+  select:focus,
+  textarea:focus {
+    border-color: #66afe9;
+    outline: none;
+    box-shadow: 0 0 5px rgba(102, 175, 233, 0.6);
+  }
+  
+  /* Radio Buttons and Checkboxes */
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  /* Radio and Checkbox Labels */
+  label > input[type="radio"],
+  label > input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  /* Dropdown */
+  select {
+    appearance: none;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Textarea */
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  /* Submit Button */
+  #submit {
+    background-color: #a1a3e4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  #submit:hover {
+    background-color: #218838;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    #survey-form {
+      margin: 10px;
+      padding: 15px;
+    }
+  }
