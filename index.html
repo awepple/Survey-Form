@@ -8,10 +8,10 @@
   <body>
     <h1 id="title">Survey Form</h1>
     <p id="description">A short survey form to see if we can improvise our platform</p>
-    <form id="survey-form" netlify>
+    <form id="survey-form" action="thankyou.html" method="post" netlify>
       <label id="name-label" >Name<input required id="name" type="text" placeholder="Enter your name"/></label>
       <label id="email-label">Email<input required id="email" type="email" placeholder="Enter your email" >
-      <label id="number-label">Age<input id="number" type="number" min="13" max="120" placeholder="Enter your age" /></label>
+      <label id="number-label">Age<input id="number" type="number" min="0" max="120" placeholder="Enter your age" /></label>
       <label>Which option best describes your current role?
         <select id="dropdown">
           <option value="">(Select Option)</option>
@@ -26,9 +26,7 @@
       </label>
       <label>
         <input id="no-yes" type="radio" name="recommendation" value="2"></input>no
-      </label>
-      <label><input type="checkbox" value="1"/></label>
-      <label><input type="checkbox" value="2" /></label>
+      </label> 
       <label>Tell us about your issues<textarea></textarea></label>
       <label><input id="submit" type="submit"></input></label>
     </form>
